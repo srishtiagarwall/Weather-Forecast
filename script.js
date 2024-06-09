@@ -35,7 +35,7 @@ const monthNames = [
 const getWeatherData = async () => {
   // Use the try-catch block to handle errors
   try {
-    // Create a const that stores the user input from the searchbar or defaults back to 'Los Angeles' if left blank
+    // Create a const that stores the user input from the searchbar or defaults back to 'Ghaziabad' if left blank
     const city = searchInput.value || 'Ghaziabad'
 
     // Create 2 promises that call the APIs and pass in the city name
