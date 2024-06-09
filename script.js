@@ -39,7 +39,7 @@ const getWeatherData = async () => {
     const city = searchInput.value || 'Ghaziabad'
 
     // Create 2 promises that call the APIs and pass in the city name
-    // If the user haven't typed anything, use Los Angeles as default
+    // If the user haven't typed anything, use Ghaziabad as default
     const currentWeather = new Promise(async (resolve, reject) => {
       try {
         const weatherApiData = await fetch(
